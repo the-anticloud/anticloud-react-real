@@ -1,0 +1,159 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:61712fec-e379-5f0f-ace2-1664f74d97d6",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T06:01:13Z",
+  "component": {
+   "type": "application",
+   "name": "REACT_REAL",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/REACT_REAL@83b357604d34",
+   "purl": "pkg:generic/anticloud/REACT_REAL@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "history",
+   "version": "^4.6.3",
+   "purl": "pkg:npm/history@^4.6.3",
+   "bom-ref": "npm/history@^4.6.3"
+  },
+  {
+   "type": "library",
+   "name": "marked",
+   "version": "^0.3.6",
+   "purl": "pkg:npm/marked@^0.3.6",
+   "bom-ref": "npm/marked@^0.3.6"
+  },
+  {
+   "type": "library",
+   "name": "prop-types",
+   "version": "^15.5.10",
+   "purl": "pkg:npm/prop-types@^15.5.10",
+   "bom-ref": "npm/prop-types@^15.5.10"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^16.3.0",
+   "purl": "pkg:npm/react@^16.3.0",
+   "bom-ref": "npm/react@^16.3.0"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "^16.3.0",
+   "purl": "pkg:npm/react-dom@^16.3.0",
+   "bom-ref": "npm/react-dom@^16.3.0"
+  },
+  {
+   "type": "library",
+   "name": "react-redux",
+   "version": "^5.0.7",
+   "purl": "pkg:npm/react-redux@^5.0.7",
+   "bom-ref": "npm/react-redux@^5.0.7"
+  },
+  {
+   "type": "library",
+   "name": "react-router",
+   "version": "^4.1.2",
+   "purl": "pkg:npm/react-router@^4.1.2",
+   "bom-ref": "npm/react-router@^4.1.2"
+  },
+  {
+   "type": "library",
+   "name": "react-router-dom",
+   "version": "^4.1.2",
+   "purl": "pkg:npm/react-router-dom@^4.1.2",
+   "bom-ref": "npm/react-router-dom@^4.1.2"
+  },
+  {
+   "type": "library",
+   "name": "react-router-redux",
+   "version": "^5.0.0-alpha.6",
+   "purl": "pkg:npm/react-router-redux@^5.0.0-alpha.6",
+   "bom-ref": "npm/react-router-redux@^5.0.0-alpha.6"
+  },
+  {
+   "type": "library",
+   "name": "redux",
+   "version": "^3.6.0",
+   "purl": "pkg:npm/redux@^3.6.0",
+   "bom-ref": "npm/redux@^3.6.0"
+  },
+  {
+   "type": "library",
+   "name": "redux-devtools-extension",
+   "version": "^2.13.2",
+   "purl": "pkg:npm/redux-devtools-extension@^2.13.2",
+   "bom-ref": "npm/redux-devtools-extension@^2.13.2"
+  },
+  {
+   "type": "library",
+   "name": "redux-logger",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/redux-logger@^3.0.1",
+   "bom-ref": "npm/redux-logger@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "superagent",
+   "version": "^3.8.2",
+   "purl": "pkg:npm/superagent@^3.8.2",
+   "bom-ref": "npm/superagent@^3.8.2"
+  },
+  {
+   "type": "library",
+   "name": "superagent-promise",
+   "version": "^1.1.0",
+   "purl": "pkg:npm/superagent-promise@^1.1.0",
+   "bom-ref": "npm/superagent-promise@^1.1.0"
+  },
+  {
+   "type": "library",
+   "name": "cross-env",
+   "version": "^5.1.4",
+   "purl": "pkg:npm/cross-env@^5.1.4",
+   "bom-ref": "npm/cross-env@^5.1.4"
+  },
+  {
+   "type": "library",
+   "name": "react-scripts",
+   "version": "1.1.1",
+   "purl": "pkg:npm/react-scripts@1.1.1",
+   "bom-ref": "npm/react-scripts@1.1.1"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
